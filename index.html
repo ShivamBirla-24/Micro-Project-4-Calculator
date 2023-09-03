@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div class="calcArea">
+            <div class="calcHeading">
+                <h2>Calc</h2>
+            </div>
+            <div>
+                <input placeholder="0" type="text" id="input" min="0">
+            </div>
+            <div class="buttons">
+                <div class="firstrow align">
+                    <button class="btn">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button style="background-color: #3B4664; color: white; letter-spacing: 3px;" id="delete">Del</button>
+                </div>
+                <div class="secondrow align">
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn">+</button>
+                </div>
+                <div class="thirdrow align">
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn">-</button>
+                </div>
+                <div class="fourthrow align">
+                    <button class="btn">.</button>
+                    <button class="btn">0</button>
+                    <button class="btn">/</button>
+                    <button class="btn">*</button>
+                </div>
+                <div class="fifthrow align">
+                    <button style="background-color: #3B4664; color: white; letter-spacing: 3px;" id="reset">RESET</button>
+                    <button style="background-color: red; color: white;" id="equal">=</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
